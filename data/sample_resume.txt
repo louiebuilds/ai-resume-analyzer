@@ -1,0 +1,12 @@
+Louis Vandermolen
+Email: vandermolenlouis@gmail.com
+Phone: 903-209-8170
+
+Professional Summary:
+Experienced IT operations and automation professional with expertise in Power Automate, ServiceNow, workflow automation, incident management, and process improvement.
+
+Skills:
+Python, Power Automate, ServiceNow, Excel, Workflow Automation, Incident Management, NLP, Automation
+
+Experience:
+Developed automation workflows for operational tasks, created dashboards and reports, supported IT operations, and improved business process efficiency.
