@@ -1,0 +1,7 @@
+We are seeking an Automation Engineer with experience in Python, workflow automation, NLP, machine learning, Power Automate, ServiceNow, data analysis, and process optimization.
+
+Responsibilities include:
+- Build intelligent automation solutions
+- Analyze text data
+- Develop AI-driven workflow improvements
+- Collaborate with business and technical teams
