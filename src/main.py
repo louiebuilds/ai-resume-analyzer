@@ -1,7 +1,7 @@
 import json
 import os
 
-from file-parser import load_text_file, extract_email, extract_phone
+from file_parser import load_text_file, extract_email, extract_phone
 from skill_extractor import extract_skills, DEFAULT_SKILLS
 from scorer import calculate_match_score, find_missing_skills
 from recommendations import generate_recommendations
@@ -14,9 +14,10 @@ def save_output(result, output_path):
 
 
 def main():
-    resume_path = "data/sample_resume.txt"
-    job_description_path = "data/sample_job_description.txt"
-    output_path = "outputs/analysis_result.json"
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+    resume_path = os.path.join(project_root, "data", "sample_resume.txt")
+    job_description_path = os.path.join(project_root, "data", "sample_job_description.txt")
+    output_path = os.path.join(project_root, "outputs", "analysis_result.json")
 
     resume_text = load_text_file(resume_path)
     job_text = load_text_file(job_description_path)
