@@ -1,7 +1,7 @@
 import json
 import os
 
-from parser import load_text_file, extract_email, extract_phone
+from file-parser import load_text_file, extract_email, extract_phone
 from skill_extractor import extract_skills, DEFAULT_SKILLS
 from scorer import calculate_match_score, find_missing_skills
 from recommendations import generate_recommendations
